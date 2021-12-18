@@ -2,8 +2,7 @@
   import {goto} from '$app/navigation';
   let searchTerm = '';
   const submitSearch = () => {
-    console.log('submitHit');
-    goto(`${searchTerm}/search-result`)
+    goto(`${searchTerm}`)
   }
 </script>
 
@@ -15,3 +14,4 @@
     <form />
   <p>{searchTerm}</p>
 </div>
+
